@@ -3,8 +3,8 @@ import java.io.*;
 
 public class TestSOAPClient {
 
-    public final static String DEFAULT_SERVER = "http://sicredi.fluidsystem.com.br/homologacao/webservice/process";
-    public final static String SOAP_ACTION = "http://sicredi.fluidsystem.com.br/homologacao/webservice/process/#dados";
+    public final static String DEFAULT_SERVER = "https://sicredi.fluidsystem.com.br/homologacao/webservice/process";
+    public final static String SOAP_ACTION = "https://sicredi.fluidsystem.com.br/homologacao/webservice/process/#dados";
     public final static String CHARSET = "UTF-8";
 
     public static void main(String[] args) {
