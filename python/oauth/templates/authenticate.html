@@ -1,0 +1,29 @@
+<form action="autenticar" method="POST">
+    <h1>Autenticar cliente</h1>
+    <br />
+    <label for="client_id">Identificador do cliente: </label>
+    <br />
+    <br />
+    <input type="text" name="client_id" id="client_id">
+    <br />
+    <br />
+    <label>Solicitar os seguintes escopos: </label>
+    <br />
+
+    <fieldset> 
+        <input type="checkbox" name="criar" value="criar" checked>
+        <label>criar </label>
+        <br />
+        <input type="checkbox" name="preencher" value="preencher" checked>
+        <label>preencher </label>
+        <br />
+        <input type="checkbox" name="protocolar" value="protocolar" checked>
+        <label>protocolar </label>
+        <br /><br />
+    </fieldset> 
+
+    <button type="submit">Autenticar</button>
+    <br />
+    <br />
+    <a href="https://localhost:5000/procurar">Buscar cliente</a>
+</form>
